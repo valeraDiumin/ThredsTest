@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
  */
 public class TestWithSecondThread extends JFrame implements ActionListener, Runnable {
 
-    public TestWithSecondThread() {
+    public TestWithSecondThread() {// I woud like to see this String in GITHUB
 
         GridLayout gridLayout = new GridLayout(2, 1);
         this.getContentPane().setLayout(gridLayout);
